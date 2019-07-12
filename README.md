@@ -1,3 +1,5 @@
+# moviesDBFlutter
+
 Proyecto Flutter - Películas.
 
 Se debe construir un App Mobile en Flutter que muestre las 20 películas más populares o mejor calificadas con información que se obtiene de TheMovieDB.org (según los criterios seleccionados por el usuario). También contiene una sección para mostrar las películas "favoritas" del usuario.
