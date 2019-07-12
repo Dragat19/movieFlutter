@@ -29,8 +29,6 @@ class ReviewProvider {
     final reviews = new Reviews.fromJsonList(decodedData['results']);
     reviewsItems.addAll(reviews.items);
     reviewSink(reviewsItems);
-    print('URL: $url');
-    print('RESP: ${reviews.items.length}');
     return reviews.items;
   }
 

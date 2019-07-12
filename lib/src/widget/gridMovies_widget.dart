@@ -48,7 +48,6 @@ class GridMoviesWidget extends StatelessWidget {
     return GestureDetector(
       child: imgMovies,
       onTap: () {
-        print('id movies: ${movies[index].id}');
         Navigator.pushNamed(context, 'details', arguments: movies[index]);
       },
     );
